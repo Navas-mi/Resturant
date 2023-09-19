@@ -1,0 +1,197 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+:root{
+
+    --blue:#78C1F3;
+    --mint:#9BE8D8;
+    --sage:#d2d6cc;
+    --yellow:#F8FDCF;
+    --white:#ffffff;
+    --navyblue:#630fb6;
+    --dark_grey:#a9a9a9;
+    /* color: ; */
+}
+
+body{
+
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* color: ; */
+
+   /* background-color: s; */
+}
+body{
+
+    background-image: url(/media/green\ chillii.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* height:100vh ; */
+    /* width: 100vw; */
+    /* color:var(--white) */
+    
+}
+header a{
+
+    text-decoration: none;
+    color: var(--yellow);
+}
+/* header a:hover{ 
+color: var(--blue);
+} */
+
+header{  
+
+    display: flex;
+    padding: 1.2em;
+          font-family: 'Libre Baskerville', serif;
+
+}
+#logo{
+
+     flex: 3;
+     font-size: 2.5em;
+}
+
+/* .call_us{ */
+/* color: white; */
+/* z-index: 2; */
+/* } */
+nav{
+
+    flex: 1;
+    font-size: 1.5em;
+    display: flex;
+}
+nav a{
+
+    flex: 1;  
+}
+nav a:hover{
+                                   
+    color: var(--blue);
+}        
+.maintext{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 50vh;
+    padding: 2em;
+}
+.subline{                                
+
+    color: var(--yellow);
+    font-size: 1.5em;  
+    font-weight: bolder;
+
+}
+.subline2{
+
+    color: var(--mint);
+    padding: 10px;
+
+    
+}
+ .maintext div{
+
+    margin-top: 0.75em;
+ }
+ .maintext button{
+
+    width: 10vw;
+    /* margin-top: 2em; */
+    margin-left: 13em;
+    margin-bottom: 5em;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--yellow);
+    color: black;
+    border: 2px solid var(--white);
+ }
+ .maintext button:hover{
+       
+       background-color: var(--blue);
+       
+ }
+ #run{
+
+    color: var(--white);    
+    font-weight: bold;
+ }
+ .tele{
+
+
+      color: var(--sage);
+      text-decoration: none;
+      padding: 50px;
+      margin-left: 7em;
+ }
+
+ .menu{
+
+      display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       color: var(--white);
+       /* padding: 10px; */
+       /* margin-right: 20px;   */
+ }
+#menuheading{
+
+    display: flex;
+    justify-content: center;
+    color: var(--yellow);
+    font-size: 2em;
+    padding: 10px;
+}
+.menu th{
+
+     color: var(--dark_grey);
+     /* color: darkgray; */
+     font-size: 2em;
+     padding: 10px;
+}
+#locheading{
+
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+    color: var(--yellow)!important;
+    font-size: 2em;
+
+}
+.locations{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* color:  --dark_grey; */
+    /* color: red !important ; */
+    margin-left: 7em;
+    margin-bottom: 2em;
+}
+
+h2{
+    color: var(--dark_grey);
+}
+.starters{
+
+    margin-left: 40px;
+}
+.maincourse{
+
+    margin-left: 2em;
+}
+.chats{
+
+    margin-left: 2em;
+}
+.Tambaram{
+
+    margin-left: 1.1em;
+}
+ /* .using{
+
+    flex: 1;
+    margin-left: 3em;
+} */
